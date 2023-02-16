@@ -1,0 +1,121 @@
+body {
+    padding-top: 10px;
+  }
+
+
+  .h-sub {
+    font-size: 18px;
+    margin-right: 40px;
+    margin-left: 40px;
+    color: royalblue;
+    text-align: center;
+
+  }
+  .p-sub {
+    
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: 250 px 1 fr 300px;
+   
+  
+
+  }
+  .imgs {
+    float: left;
+    width: 100px;
+    height: 110px;
+    margin: 2px;
+    border-radius: 10%;
+   
+  }
+
+  .item-name { 
+    margin-left: auto;
+    text-align: left;
+    
+  }
+
+  .item-price{ 
+    margin-top: -25px;
+    margin-right: 30px;
+    text-align: right;
+
+
+  }
+
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .counter {
+	display: inline;
+	align-items: right;
+  margin-left: 200px;
+  }
+
+  .inc-button{
+
+  }
+
+  .dec-button{
+  
+  }
+
+
+      
+
+  .order-button {
+    
+    border: solid;
+    border-color: black;
+    color: black;
+    background-color: lightskyblue;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 60px;
+    float: right;
+    
+    }
+
+
+  .clear-all-button {
+    border: solid;
+    border-color: black;
+    color: black;
+    background-color: gray;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 40px;
+    margin: 4px 2px;
+    float: right;
+
+  }
+  
+    .bottompos {
+    position: absolute;
+    bottom: 8px;
+
+    }
+
+    .add-to-cart {
+      font-size: 20 px;
+    }
+
+
+  
+
+
+
+
+
